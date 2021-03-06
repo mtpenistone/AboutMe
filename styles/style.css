@@ -1,0 +1,178 @@
+/* Custom Fonts 
+
+font-family: 'Lobster', cursive;
+font-family: 'Merriweather Sans', sans-serif;
+
+*/
+
+/*  Colour codes
+
+
+#003C61 blue
+#FEC1AF salmon
+
+
+*/
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #003C61;
+}
+
+p {
+    color: rgb(67, 106, 144);
+}
+
+hr {
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 1rem;
+    width: 30%;
+    background-color: #003C61;
+  
+}
+
+/* Header Style */
+
+header {
+    background-color: #FEC1AF;
+    color: #003C61;
+    text-align: center;   
+}
+
+header p {
+    color: #003C61;
+}
+
+
+/* Header icon styling */
+
+.icons-header {
+    padding-bottom: 0.75rem;
+    padding-top: 1.5rem;
+    font-size: 5rem; 
+    position: relative;
+}
+
+.mobile-header {   
+    transform: rotate(25deg);    
+}
+
+.laptop-header {
+    transform: rotate(-25deg);   
+}
+
+.runner-header {
+    transform: rotate(25deg);
+}
+
+.student-header {
+    transform: rotate(-25deg);
+}
+
+.windows-header {
+    transform: rotate(-25deg);
+}
+
+.apple-header {
+    transform: rotate(25deg);
+}
+
+/* Header text styling */
+
+header h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+/* About me styling */
+
+.about-me {
+    text-align: center;
+    padding-top: 2rem;
+    width: 70%;
+}
+
+.about-me-image {
+    width: 15%;
+    border-radius:100%;
+}
+
+
+/* Skills styling */
+
+.technical-skills {
+    text-align: center;
+    width: 70%;
+}
+
+.skills-icon:hover {
+    color: #FEC1AF;
+}
+
+.personal-skills {
+    text-align: center;
+    width: 70%;
+}
+ 
+/* Portfolio styling */
+
+.portfolio {
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.card {
+    box-shadow: 0.25rem 0.25rem 0.5rem #003C61
+}
+
+
+
+/* Footer styling */
+
+.footer {
+    background-color: #003C61;
+    text-align: center;
+    color: #FEC1AF;
+}
+
+.footer p {
+    
+ color: #FEC1AF;
+}
+
+.contact-button {
+    border-color: #FEC1AF;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #FEC1AF;
+    text-decoration: none;
+}
+
+.contact-button:hover {
+    border-color: #003C61;
+    background-color: #FEC1AF;
+    color: #003C61;
+    text-decoration: none;
+}
+
+.contact-button:focus {
+    border-color: #FEC1AF;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #FEC1AF;
+    text-decoration: none;
+}
+
+
+
+
+
+
