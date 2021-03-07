@@ -17,6 +17,8 @@ font-family: 'Merriweather Sans', sans-serif;
 body {
     font-family: 'Merriweather Sans', sans-serif;
     color: #003C61;
+    margin:0; 
+    text-decoration: none;
 }
 
 p {
@@ -149,12 +151,17 @@ header p {
 }
 
 .contact-button {
-    border-color: #FEC1AF;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    background: #003C61;
+    border-radius: 11px;
+    margin: 3rem auto;
+    font-family: Arial;
     color: #FEC1AF;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #FEC1AF 2px;
     text-decoration: none;
-}
+  }
+
 
 .contact-button:hover {
     border-color: #003C61;
@@ -163,13 +170,18 @@ header p {
     text-decoration: none;
 }
 
-.contact-button:focus {
-    border-color: #FEC1AF;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.contact-button:any-link {
+    
     color: #FEC1AF;
-    text-decoration: none;
 }
+
+/* Media styling */
+
+@media screen and (max-width: 768px) {
+    .icons {
+        display: none;
+    }
+  }
 
 
 
