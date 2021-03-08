@@ -118,6 +118,10 @@ header p {
     width: 70%;
 }
 
+.technical-skills h4 {
+    padding-left: 1rem;
+}
+
 .skills-icon:hover {
     color: #FEC1AF;
 }
@@ -165,18 +169,26 @@ header p {
     text-decoration: none;
   }
 
+  .contact-button a {
+    text-decoration: none;
+    color: #FEC1AF;
+}
+
 
 .contact-button:hover {
     border-color: #003C61;
     background-color: #FEC1AF;
-    color: #003C61;
     text-decoration: none;
 }
 
-.contact-button:any-link {
+
+.contact-button:hover a {
+    color: #003C61;
     
-    color: #FEC1AF;
 }
+
+
+
 
 /* Media styling */
 
